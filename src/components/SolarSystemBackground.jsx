@@ -51,7 +51,7 @@ const SolarSystemBackground = () => {
         {stars.map((star) => (
           <div
             key={star.id}
-            className="absolute w-1 h-1 bg-white rounded-full"
+            className="absolute size-1 bg-white rounded-full"
             style={{
               top: `${star.top}%`,
               left: `${star.left}%`,
@@ -65,7 +65,7 @@ const SolarSystemBackground = () => {
         {shootingStars.map((star) => (
           <div
             key={`shooting-${star.id}`}
-            className="absolute w-1 h-1 bg-white rounded-full"
+            className="absolute size-1 bg-white rounded-full"
             style={{
               top: `${star.top}%`,
               left: `${star.left}%`,
@@ -87,7 +87,7 @@ const SolarSystemBackground = () => {
         >
           <div className="relative overflow-hidden" style={{ height: '56px', width: '112px' }}>
             <div
-              className="w-28 h-28 rounded-full bg-yellow-400 cursor-pointer"
+              className="size-28 rounded-full bg-yellow-400 cursor-pointer"
               style={{
                 backgroundColor: '#FDB813',
                 marginTop: '-56px',
@@ -104,7 +104,7 @@ const SolarSystemBackground = () => {
                 
                 {/* Arrow pointing up to sun */}
                 <div
-                  className="absolute w-0 h-0"
+                  className="absolute size-0"
                   style={{
                     bottom: '100%',
                     left: '50%',
@@ -225,7 +225,7 @@ const SolarSystemBackground = () => {
                     
                     {/* Arrow pointing up to planet */}
                     <div
-                      className="absolute w-0 h-0"
+                      className="absolute size-0"
                       style={{
                         bottom: '100%',
                         left: '50%',
