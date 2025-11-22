@@ -40,7 +40,7 @@ const PlanetCard = ({ celestialBody, isActive }) => {
               loading="lazy"
             />
             <div
-              className="absolute inset-0 bg-gradient-to-br from-transparent to-black opacity-30"
+              className="absolute inset-0 bg-linear-to-br from-transparent to-black opacity-30"
             />
           </motion.div>
 
@@ -93,7 +93,7 @@ const PlanetCard = ({ celestialBody, isActive }) => {
                   transition={{ delay: 0.6 + i * 0.1 }}
                 >
                   <span
-                    className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
+                    className="size-2 rounded-full mt-2 shrink-0"
                     style={{ backgroundColor: color }}
                   />
                   <span>{fact}</span>
@@ -136,7 +136,7 @@ const PlanetCard = ({ celestialBody, isActive }) => {
           >
             <span className="text-sm">Scroll to explore</span>
             <svg
-              className="w-5 h-5"
+              className="size-5"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
