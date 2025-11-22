@@ -39,15 +39,24 @@ const Navigation = () => {
   }, [charIndex, isDeleting, currentRoleIndex]);
 
   const handleMenuClick = (item) => {
-    // Scroll to section logic can be added here
-    console.log(`Clicked: ${item}`);
     setMobileMenuOpen(false);
+    
+    // Convert menu item to section ID
+    const sectionId = item.toLowerCase().replace(/\s+/g, '-');
+    
+    // Special handling for "Contact Me" -> "contact"
+    const targetId = item === 'Contact Me' ? 'contact' : sectionId;
+    
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
 
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/40 backdrop-blur-md border-b border-white/5">
-        <div className="w-full px-4 py-3 sm:px-8 md:px-16">
+        <div className="w-full px-4 py-3 sm:px-8 md:px-8">
           <div className="flex flex-row items-center justify-between">
             {/* Animated Text on Left */}
             <div className="flex items-center gap-2 sm:gap-4">
