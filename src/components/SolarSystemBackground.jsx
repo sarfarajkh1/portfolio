@@ -43,11 +43,66 @@ const SolarSystemBackground = () => {
 
   const [hoveredPlanet, setHoveredPlanet] = React.useState(null);
   const containerRef = React.useRef(null);
+  // We'll render the background as fixed and drive its internal
+  // vertical position with the page scroll. This prevents the
+  // background element from creating its own scrollbar while
+  // keeping planets aligned with the document content.
+  const [docHeight, setDocHeight] = React.useState(() =>
+    document.documentElement.scrollHeight || document.body.scrollHeight
+  );
+  const [scrollY, setScrollY] = React.useState(0);
+
+  React.useEffect(() => {
+    let ticking = false;
+
+    const onScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setScrollY(window.scrollY || window.pageYOffset);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    const updateDocHeight = () => {
+      const h = document.documentElement.scrollHeight || document.body.scrollHeight;
+      setDocHeight(h);
+    };
+
+    // Observe body size changes so the background height stays in sync
+    let ro = null;
+    if (window.ResizeObserver) {
+      ro = new ResizeObserver(updateDocHeight);
+      ro.observe(document.body);
+    } else {
+      window.addEventListener('resize', updateDocHeight);
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('load', updateDocHeight);
+    const t = setTimeout(updateDocHeight, 300);
+
+    // initial set
+    onScroll();
+
+    return () => {
+      if (ro) ro.disconnect();
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('load', updateDocHeight);
+      window.removeEventListener('resize', updateDocHeight);
+      clearTimeout(t);
+    };
+  }, []);
 
   return (
-    <div className="fixed inset-0 overflow-x-hidden overflow-y-auto bg-black">
-      {/* Stars background - fixed to viewport */}
-      <div className="fixed inset-0 pointer-events-none">
+    <div
+      className="fixed top-0 left-0 w-full h-full overflow-hidden bg-black"
+      style={{ zIndex: -1 }}
+    >
+      {/* Fixed background: does not affect document flow or create scrollbars */}
+      {/* Stars background - positioned relative to this component so it scrolls with content */}
+      <div className="absolute inset-0 pointer-events-none">
         {stars.map((star) => (
           <div
             key={star.id}
@@ -76,8 +131,18 @@ const SolarSystemBackground = () => {
         ))}
       </div>
 
-      {/* Solar System Container - vertical scrollable */}
-      <div ref={containerRef} className="relative w-full mx-auto" style={{ minHeight: '5000px', paddingTop: '100px', paddingBottom: '200px' }}>
+  {/* Solar System Container - content height will determine page scroll */}
+  <div
+    ref={containerRef}
+    className="relative w-full mx-auto"
+    style={{
+      height: docHeight ? `${docHeight}px` : '200vh',
+      paddingTop: '100px',
+      paddingBottom: '200px',
+      transform: `translateY(-${scrollY}px)`,
+      willChange: 'transform',
+    }}
+  >
         {/* Sun at top - cut in half, only bottom half visible */}
         <div 
           className="absolute left-1/2 transform -translate-x-1/2 z-20" 

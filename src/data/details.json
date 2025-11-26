@@ -1,4 +1,65 @@
 {
+  "about": {
+    "fullName": "Sarfaraj Khatri",
+    "title": "Senior Full Stack .NET Developer",
+    "profileImage": "/src/assets/profile.jpeg",
+    "birthday": "30 December 1991",
+    "maritalStatus": "Married",
+    "address": "Ahmedabad, India",
+    "languagesKnown": ["English", "Hindi", "Gujarati"],
+    "mobile": "+91 8000733962",
+    "qualification": "B.E. in Electronic and Communication Engineering",
+    "highlightSentence": "Full-stack developer blending robust backend architecture with dynamic UI craftsmanship.",
+    "summary": "Passionate Full Stack Developer with extensive experience in building scalable, high-performance web applications. Specialized in .NET ecosystem with a strong foundation in modern frontend frameworks. Committed to writing clean, maintainable code while delivering exceptional user experiences. Proven track record of leading projects from conception to deployment, mentoring junior developers, and staying ahead of industry trends.",
+    "technicalSkills": [
+      { "name": "C#", "level": "expert" },
+      { "name": ".NET Core", "level": "expert" },
+      { "name": ".NET MVC", "level": "expert" },
+      { "name": "Entity Framework", "level": "expert" },
+      { "name": "LINQ", "level": "expert" },
+      { "name": "SQL Server", "level": "expert" },
+      { "name": "React", "level": "advanced" },
+      { "name": "Angular", "level": "advanced" },
+      { "name": "JavaScript", "level": "advanced" },
+      { "name": "TypeScript", "level": "advanced" },
+      { "name": "Azure", "level": "advanced" },
+      { "name": "REST APIs", "level": "advanced" },
+      { "name": "Microservices", "level": "advanced" },
+      { "name": "HTML5", "level": "advanced" },
+      { "name": "CSS3", "level": "advanced" },
+      { "name": "jQuery", "level": "intermediate" },
+      { "name": "Unit Testing", "level": "advanced" },
+      { "name": "OOPs", "level": "expert" }
+    ],
+    "designPatterns": [
+      "IoC (Inversion of Control)",
+      "CQRS",
+      "Repository Pattern",
+      "SOLID Principles",
+      "Singleton",
+      "Dependency Injection",
+      "Factory Pattern",
+      "Observer Pattern"
+    ],
+    "versionControl": ["Git", "GitHub", "TFS", "Azure DevOps"],
+    "interests": ["Open Source", "Tech Blogging", "Code Reviews", "Continuous Learning"],
+    "careerStartDate": "2016-01-01",
+    "projectsCompleted": "50+",
+    "additionalStats": [
+      { "label": "Code Reviews", "value": "1000+" },
+      { "label": "API Endpoints", "value": "500+" },
+      { "label": "Database Schemas", "value": "100+" },
+      { "label": "Team Members Mentored", "value": "15+" },
+      { "label": "Production Deployments", "value": "200+" },
+      { "label": "Bug Fixes", "value": "2000+" },
+      { "label": "Git Commits", "value": "5000+" },
+      { "label": "Unit Tests Written", "value": "3000+" },
+      { "label": "Stored Procedures", "value": "300+" },
+      { "label": "NuGet Packages", "value": "25+" },
+      { "label": "Code Refactoring", "value": "150+" },
+      { "label": "Performance Optimizations", "value": "100+" }
+    ]
+  },
   "contact": {
     "myAddress": {
       "city": "Ahmedabad"
