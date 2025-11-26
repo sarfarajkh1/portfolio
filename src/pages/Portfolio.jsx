@@ -7,10 +7,10 @@ import ContactMe from '../components/contactMe/ContactMe';
 const Portfolio = () => {
   return (
     <>
-      <Navigation />
-      <SolarSystemBackground />
-      <About />
-      <ContactMe />
+  <SolarSystemBackground />
+  <Navigation />
+  <About />
+  <ContactMe />
     </>
   );
 };

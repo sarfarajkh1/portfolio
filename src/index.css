@@ -11,13 +11,18 @@
     margin: 0;
     padding: 0;
     background-color: #000;
-    overflow: hidden;
+   /* Prevent horizontal overflow site-wide and allow vertical scrolling
+     on the document body. Using 100vw on #root can cause a horizontal
+     scrollbar because 100vw doesn't account for the scrollbar width. */
+   overflow-x: hidden;
+   overflow-y: auto;
   }
 
+  /* Keep #root full width but avoid 100vw (prevents extra horizontal scroll).
+     Use 100% so the element fits the viewport minus scrollbar. */
   #root {
-    width: 100vw;
-    height: 100vh;
-    overflow: auto;
+    width: 100%;
+    min-height: 100vh;
   }
 }
 

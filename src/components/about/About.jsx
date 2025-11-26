@@ -78,6 +78,12 @@ const About = () => {
 
             {/* Technical Skills */}
             <TechnicalSkills skills={about.technicalSkills} />
+            {/* Version Control & Other Tools (moved here to appear after Technical Skills) */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <VersionControl tools={about.versionControl} />
+
+              <Interests interests={about.interests} />
+            </div>
           </motion.div>
         </div>
 
@@ -97,18 +103,6 @@ const About = () => {
             {/* Design Patterns */}
             <DesignPatterns patterns={about.designPatterns} />
           </div>
-
-          {/* Version Control & Other Tools */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Version Control */}
-            <VersionControl tools={about.versionControl} />
-
-            {/* Interests */}
-            <Interests interests={about.interests} />
-          </div>
-
-          {/* Developer Note */}
-          <DeveloperNote />
         </motion.div>
         </div>
       </section>

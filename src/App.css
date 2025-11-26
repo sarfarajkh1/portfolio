@@ -1,8 +1,10 @@
 #root {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+  /* avoid using 100vw/100vh which can create extra scrollbars;
+     let the root size naturally and ensure it fills viewport at minimum */
+  width: 100%;
+  min-height: 100vh;
 }
 
 .logo {
