@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import profileImg from '../assets/profile.jpeg';
 
 const Navigation = () => {
-  const menuItems = ['About', 'Bio', 'Projects', 'Blog', 'Contact Me'];
+  const menuItems = ['About', 'Timeline', 'Projects', 'Blogs', 'Contact Me'];
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
@@ -44,11 +44,12 @@ const Navigation = () => {
     // Convert menu item to section ID
     const sectionId = item.toLowerCase().replace(/\s+/g, '-');
     
-  // Special handling for some menu labels -> section IDs
-  // "About" should scroll to the '#bio' section
-  let targetId = sectionId;
-  if (item === 'Contact Me') targetId = 'contact';
-  if (item === 'About') targetId = 'bio';
+    // Special handling for some menu labels -> section IDs
+    // "About" should scroll to the '#bio' section
+    let targetId = sectionId;
+    if (item === 'Contact Me') targetId = 'contact';
+    if (item === 'About') targetId = 'bio';
+    if (item === 'Timeline') targetId = 'timeline';
     
     const element = document.getElementById(targetId);
     if (element) {

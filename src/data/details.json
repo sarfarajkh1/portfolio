@@ -60,6 +60,125 @@
       { "label": "Performance Optimizations", "value": "100+" }
     ]
   },
+  "timeline": {
+    "education": [
+      {
+        "id": "edu-1",
+        "course": "Bachelor of Engineering (B.E.)",
+        "specialization": "Electronics and Communication Engineering",
+        "institute": "Ahmedabad Institute of Technology",
+        "startMonth": "July",
+        "startYear": 2012,
+        "endMonth": "May",
+        "endYear": 2016,
+        "cgpa": "7.8/10"
+      },
+      {
+        "id": "edu-2",
+        "course": "Higher Secondary (12th)",
+        "specialization": "Science Stream",
+        "institute": "Delhi Public School, Ahmedabad",
+        "startMonth": "June",
+        "startYear": 2010,
+        "endMonth": "March",
+        "endYear": 2012,
+        "percentage": "82%"
+      },
+      {
+        "id": "edu-3",
+        "course": "Secondary (10th)",
+        "specialization": "General",
+        "institute": "Delhi Public School, Ahmedabad",
+        "startMonth": "June",
+        "startYear": 2008,
+        "endMonth": "March",
+        "endYear": 2010,
+        "percentage": "88%"
+      }
+    ],
+    "experience": [
+      {
+        "id": "exp-1",
+        "company": "Tech Solutions India Pvt. Ltd.",
+        "designation": "Senior Full Stack Developer",
+        "startMonth": "January",
+        "startYear": 2021,
+        "endMonth": "Present",
+        "endYear": 2025,
+        "responsibilities": [
+          "Architected and developed microservices-based solutions handling 1M+ daily requests",
+          "Led a team of 8 developers in delivering complex enterprise applications",
+          "Implemented CI/CD pipelines reducing deployment time by 60%",
+          "Mentored junior developers and conducted code reviews",
+          "Optimized database queries resulting in 40% performance improvement"
+        ]
+      },
+      {
+        "id": "exp-2",
+        "company": "Tech Solutions India Pvt. Ltd.",
+        "designation": "Full Stack Developer",
+        "startMonth": "June",
+        "startYear": 2018,
+        "endMonth": "December",
+        "endYear": 2020,
+        "responsibilities": [
+          "Developed full-stack web applications using .NET Core and React",
+          "Built and maintained REST APIs serving 500K+ users",
+          "Collaborated with frontend and backend teams for seamless integration",
+          "Implemented unit tests achieving 85% code coverage",
+          "Participated in design reviews and architectural discussions"
+        ]
+      },
+      {
+        "id": "exp-3",
+        "company": "Digital Innovations Ltd.",
+        "designation": "Senior Software Engineer",
+        "startMonth": "August",
+        "startYear": 2019,
+        "endMonth": "May",
+        "endYear": 2021,
+        "responsibilities": [
+          "Designed and implemented enterprise-scale solutions for fintech applications",
+          "Developed real-time data processing systems using advanced queuing mechanisms",
+          "Improved application response time by 50% through performance optimization",
+          "Established coding standards and best practices for the team",
+          "Successfully migrated legacy systems to modern .NET Core architecture"
+        ]
+      },
+      {
+        "id": "exp-4",
+        "company": "Digital Innovations Ltd.",
+        "designation": "Software Engineer",
+        "startMonth": "March",
+        "startYear": 2017,
+        "endMonth": "July",
+        "endYear": 2019,
+        "responsibilities": [
+          "Developed and maintained web applications using ASP.NET MVC and AngularJS",
+          "Created database schemas and optimized SQL queries",
+          "Implemented authentication and authorization mechanisms",
+          "Fixed production bugs and provided timely resolutions",
+          "Assisted in requirement gathering and technical documentation"
+        ]
+      },
+      {
+        "id": "exp-5",
+        "company": "StartupXYZ Technologies",
+        "designation": "Junior Developer",
+        "startMonth": "January",
+        "startYear": 2016,
+        "endMonth": "February",
+        "endYear": 2017,
+        "responsibilities": [
+          "Developed features for web applications using C# and ASP.NET",
+          "Assisted senior developers in debugging and code optimization",
+          "Participated in daily stand-ups and sprint planning",
+          "Contributed to the development of company's flagship product",
+          "Learned industry best practices and development methodologies"
+        ]
+      }
+    ]
+  },
   "contact": {
     "myAddress": {
       "city": "Ahmedabad"
