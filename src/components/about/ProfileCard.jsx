@@ -1,6 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
+import profileImg from '../../assets/profile.jpeg';
 
 const ProfileCard = ({ about, stats, additionalStats }) => {
   return (
@@ -15,7 +16,7 @@ const ProfileCard = ({ about, stats, additionalStats }) => {
         <div className="absolute -inset-1 bg-linear-to-r from-cyan-500 to-blue-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-500"></div>
         <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
           <img
-            src={about.profileImage}
+            src={profileImg}
             alt={about.fullName}
             className="w-full rounded-xl object-cover aspect-square"
           />
