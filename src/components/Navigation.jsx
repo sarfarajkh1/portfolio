@@ -50,6 +50,7 @@ const Navigation = () => {
     if (item === 'Contact Me') targetId = 'contact';
     if (item === 'About') targetId = 'bio';
     if (item === 'Timeline') targetId = 'timeline';
+    if (item === 'Projects') targetId = 'projects';
     
     const element = document.getElementById(targetId);
     if (element) {
