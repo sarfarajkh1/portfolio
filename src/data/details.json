@@ -321,6 +321,41 @@
       }
     ]
   },
+  "services": {
+    "intro": "I offer end-to-end software development and consulting services to help businesses transform ideas into robust digital solutions.",
+    "list": [
+      {
+        "id": "svc-1",
+        "title": "Custom Software Development",
+        "description": "Tailored .NET Core, Angular, and mobile applications built to scale with your business needs."
+      },
+      {
+        "id": "svc-2",
+        "title": "System Optimization & Performance",
+        "description": "Enhance existing applications for speed, scalability, and security—typically achieving 30%+ performance gains."
+      },
+      {
+        "id": "svc-3",
+        "title": "Cloud & DevOps Integration",
+        "description": "Azure deployment, CI/CD pipeline automation, and cloud-native architecture design."
+      },
+      {
+        "id": "svc-4",
+        "title": "Team Mentoring & Code Review",
+        "description": "Guide development teams, enforce best practices, and improve code quality—reducing defects by up to 40%."
+      },
+      {
+        "id": "svc-5",
+        "title": "API Integration & Security",
+        "description": "Secure third-party integrations (KYC, payment gateways, IoT) with token-based authentication and encryption."
+      },
+      {
+        "id": "svc-6",
+        "title": "IT Consulting & Architecture",
+        "description": "Strategic guidance on technology stack selection, microservices design, and digital transformation roadmaps."
+      }
+    ]
+  },
   "contact": {
     "myAddress": {
       "city": "Ahmedabad"

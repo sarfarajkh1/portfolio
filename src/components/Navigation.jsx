@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import profileImg from '../assets/profile.jpeg';
 
 const Navigation = () => {
-  const menuItems = ['About', 'Timeline', 'Projects', 'Blogs', 'Contact Me'];
+  const menuItems = ['About', 'Timeline', 'Projects', 'Services', 'Blogs', 'Contact Me'];
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
@@ -51,6 +51,7 @@ const Navigation = () => {
     if (item === 'About') targetId = 'bio';
     if (item === 'Timeline') targetId = 'timeline';
     if (item === 'Projects') targetId = 'projects';
+    if (item === 'Services') targetId = 'services';
     
     const element = document.getElementById(targetId);
     if (element) {
