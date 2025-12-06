@@ -178,6 +178,149 @@
       }
     ]
   },
+  "projects": {
+    "domains": [
+      { "name": "E-Commerce", "count": 2, "color": "from-blue-500 to-cyan-500" },
+      { "name": "FinTech", "count": 3, "color": "from-green-500 to-emerald-500" },
+      { "name": "Healthcare", "count": 1, "color": "from-red-500 to-pink-500" },
+      { "name": "Enterprise", "count": 1, "color": "from-purple-500 to-indigo-500" }
+    ],
+    "list": [
+      {
+        "id": "proj-1",
+        "title": "Microservices E-Commerce Platform",
+        "company": "Tech Solutions India Pvt. Ltd.",
+        "domain": "E-Commerce",
+        "intro": "Scalable microservices-based e-commerce platform handling 1M+ daily requests with advanced inventory management and real-time order tracking.",
+        "description": "Built a comprehensive e-commerce solution using microservices architecture that improved system scalability by 300% and reduced latency to 100ms.",
+        "myRole": "Senior Full Stack Developer & Tech Lead",
+        "techStack": ["C#", ".NET Core", "React", "SQL Server", "Azure", "RabbitMQ", "Docker", "Kubernetes"],
+        "achievements": [
+          "Architected microservices handling 1M+ daily requests",
+          "Reduced API response time by 60% through optimization",
+          "Led team of 6 developers to successful delivery",
+          "Implemented CI/CD reducing deployment time by 70%"
+        ],
+        "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop",
+        "startDate": "2021",
+        "endDate": "2023"
+      },
+      {
+        "id": "proj-2",
+        "title": "Real-time Financial Dashboard",
+        "company": "Digital Innovations Ltd.",
+        "domain": "FinTech",
+        "intro": "Real-time financial data processing and visualization dashboard for institutional investors with live market data integration.",
+        "description": "Developed a real-time financial dashboard processing 50,000 transactions per second with WebSocket-based live updates.",
+        "myRole": "Full Stack Developer",
+        "techStack": ["C#", ".NET Core", "Angular", "SQL Server", "SignalR", "Azure"],
+        "achievements": [
+          "Processed 50,000 transactions per second",
+          "Reduced data latency to <100ms",
+          "Implemented real-time WebSocket communication",
+          "90% uptime SLA maintained"
+        ],
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+        "startDate": "2019",
+        "endDate": "2021"
+      },
+      {
+        "id": "proj-3",
+        "title": "Healthcare Patient Management System",
+        "company": "Digital Innovations Ltd.",
+        "domain": "Healthcare",
+        "intro": "Comprehensive patient management system for hospitals with appointment scheduling, medical records, and billing integration.",
+        "description": "Full-stack healthcare solution managing 50,000+ patient records with HIPAA compliance and secure data handling.",
+        "myRole": "Full Stack Developer",
+        "techStack": ["ASP.NET MVC", "Entity Framework", "jQuery", "SQL Server", "Azure"],
+        "achievements": [
+          "Managed 50,000+ patient records securely",
+          "HIPAA compliance implemented",
+          "Appointment scheduling efficiency improved by 40%",
+          "Integrated billing system successfully"
+        ],
+        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=300&fit=crop",
+        "startDate": "2018",
+        "endDate": "2020"
+      },
+      {
+        "id": "proj-4",
+        "title": "Enterprise Resource Planning (ERP) System",
+        "company": "Tech Solutions India Pvt. Ltd.",
+        "domain": "Enterprise",
+        "intro": "Custom ERP system for manufacturing company managing supply chain, inventory, and production planning.",
+        "description": "Scalable ERP solution for enterprise with 500+ users across multiple locations.",
+        "myRole": "Senior Full Stack Developer",
+        "techStack": ["C#", ".NET Core", "React", "SQL Server", "Azure", "Docker"],
+        "achievements": [
+          "Deployed across 5 locations successfully",
+          "500+ concurrent users supported",
+          "Inventory tracking accuracy improved to 99.9%",
+          "Reduced manual processes by 80%"
+        ],
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop",
+        "startDate": "2020",
+        "endDate": "2022"
+      },
+      {
+        "id": "proj-5",
+        "title": "Payment Gateway Integration",
+        "company": "Digital Innovations Ltd.",
+        "domain": "FinTech",
+        "intro": "Secure payment gateway integration handling multiple payment methods and currencies with fraud detection.",
+        "description": "Payment processing solution supporting 20+ payment gateways with advanced fraud detection algorithms.",
+        "myRole": "Full Stack Developer",
+        "techStack": ["C#", ".NET Core", "SQL Server", "REST APIs", "Azure"],
+        "achievements": [
+          "Integrated 20+ payment gateways",
+          "Fraud detection accuracy: 99.5%",
+          "Processing 10,000+ transactions daily",
+          "Zero security breaches maintained"
+        ],
+        "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=500&h=300&fit=crop",
+        "startDate": "2019",
+        "endDate": "2021"
+      },
+      {
+        "id": "proj-6",
+        "title": "AI-Powered Inventory Management",
+        "company": "StartupXYZ Technologies",
+        "domain": "E-Commerce",
+        "intro": "Machine learning-based inventory optimization system predicting demand and automating stock management.",
+        "description": "Freelance project building intelligent inventory system using ML algorithms for demand forecasting.",
+        "myRole": "Full Stack Developer & ML Consultant",
+        "techStack": ["C#", ".NET Core", "Python", "React", "SQL Server", "TensorFlow"],
+        "achievements": [
+          "Inventory accuracy improved to 96%",
+          "Demand forecasting MAPE: 8.5%",
+          "Stock-out instances reduced by 75%",
+          "Annual savings: $150,000+"
+        ],
+        "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=500&h=300&fit=crop",
+        "startDate": "2022",
+        "endDate": "2023"
+      },
+      {
+        "id": "proj-7",
+        "title": "Mobile Banking Application",
+        "company": "Freelance",
+        "domain": "FinTech",
+        "intro": "Cross-platform mobile banking app for iOS and Android with biometric authentication and transaction management.",
+        "description": "Freelance mobile banking solution with offline transaction capabilities and real-time synchronization.",
+        "myRole": "Full Stack Developer",
+        "techStack": ["React Native", "Node.js", "MongoDB", "Firebase", "JWT"],
+        "achievements": [
+          "10,000+ downloads in first month",
+          "4.8/5 app store rating",
+          "Biometric authentication implemented",
+          "Offline transaction support"
+        ],
+        "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&auto=format&q=80",
+        "startDate": "2023",
+        "endDate": "2024"
+      }
+    ]
+  },
   "contact": {
     "myAddress": {
       "city": "Ahmedabad"
