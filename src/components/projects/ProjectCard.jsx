@@ -19,11 +19,11 @@ const ProjectCard = ({ project, index, onClick }) => {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
         />
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        {/* Overlay - always visible on small screens, hover on md+ */}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300" />
 
-        {/* Content on Hover */}
-        <div className="absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        {/* Content - visible on mobile, hover on md+ */}
+        <div className="absolute inset-0 flex flex-col justify-end p-4 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <h3 className="text-white font-bold text-lg mb-1">{project.title}</h3>
           <p className="text-cyan-400 text-sm mb-2">{project.domain}</p>
           <p className="text-gray-300 text-xs">{project.company}</p>
@@ -35,7 +35,7 @@ const ProjectCard = ({ project, index, onClick }) => {
         </div>
 
         {/* Click Prompt */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute inset-0 flex items-center justify-center opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg px-4 py-2">
             <p className="text-white text-sm font-medium">View Details</p>
           </div>
