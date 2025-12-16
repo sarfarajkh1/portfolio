@@ -5,30 +5,168 @@
     "birthday": "30 December 1991",
     "maritalStatus": "Married",
     "address": "Ahmedabad, India",
-    "languagesKnown": ["English", "Hindi", "Gujarati"],
+    "languagesKnown": [ "English", "Hindi", "Gujarati" ],
     "mobile": "+91 8000733962",
     "qualification": "B.E. in Electronic and Communication Engineering",
     "highlightSentence": "Full-stack developer blending robust backend architecture with dynamic UI craftsmanship.",
     "summary": "Passionate Full Stack Developer with extensive experience in building scalable, high-performance web applications. Specialized in .NET ecosystem with a strong foundation in modern frontend frameworks. Committed to writing clean, maintainable code while delivering exceptional user experiences. Proven track record of leading projects from conception to deployment, mentoring junior developers, and staying ahead of industry trends.",
     "technicalSkills": [
-      { "name": "C#", "level": "expert" },
-      { "name": ".NET Core", "level": "expert" },
-      { "name": ".NET MVC", "level": "expert" },
-      { "name": "Entity Framework", "level": "expert" },
-      { "name": "LINQ", "level": "expert" },
-      { "name": "SQL Server", "level": "expert" },
-      { "name": "React", "level": "advanced" },
-      { "name": "Angular", "level": "advanced" },
-      { "name": "JavaScript", "level": "advanced" },
-      { "name": "TypeScript", "level": "advanced" },
-      { "name": "Azure", "level": "advanced" },
-      { "name": "REST APIs", "level": "advanced" },
-      { "name": "Microservices", "level": "advanced" },
-      { "name": "HTML5", "level": "advanced" },
-      { "name": "CSS3", "level": "advanced" },
-      { "name": "jQuery", "level": "intermediate" },
-      { "name": "Unit Testing", "level": "advanced" },
-      { "name": "OOPs", "level": "expert" }
+      {
+        "name": "C#",
+        "level": "expert"
+      },
+      {
+        "name": ".NET MVC",
+        "level": "expert"
+      },
+      {
+        "name": "ASP.NET",
+        "level": "expert"
+      },
+      {
+        "name": "ASP.NET Core",
+        "level": "expert"
+      },
+      {
+        "name": "Entity Framework",
+        "level": "advanced"
+      },
+      {
+        "name": "Entity Framework Core",
+        "level": "advanced"
+      },
+      {
+        "name": "LINQ",
+        "level": "advanced"
+      },
+      {
+        "name": "SQL Server",
+        "level": "advanced"
+      },
+      {
+        "name": "T-SQL",
+        "level": "advanced"
+      },
+      {
+        "name": "ADO.NET",
+        "level": "advanced"
+      },
+      {
+        "name": "Dapper",
+        "level": "advanced"
+      },
+      {
+        "name": "React",
+        "level": "advanced"
+      },
+      {
+        "name": "Angular",
+        "level": "advanced"
+      },
+      {
+        "name": "Micro Frontend (MFE)",
+        "level": "advanced"
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate"
+      },
+      {
+        "name": "jQuery",
+        "level": "expert"
+      },
+      {
+        "name": "AJAX",
+        "level": "advanced"
+      },
+      {
+        "name": "HTML5",
+        "level": "advanced"
+      },
+      {
+        "name": "CSS3",
+        "level": "advanced"
+      },
+      {
+        "name": "REST APIs",
+        "level": "expert"
+      },
+      {
+        "name": "Swagger",
+        "level": "advanced"
+      },
+      {
+        "name": "Microservices",
+        "level": "advanced"
+      },
+      {
+        "name": "RabbitMQ",
+        "level": "intermediate"
+      },
+      {
+        "name": "Kafka",
+        "level": "intermediate"
+      },
+      {
+        "name": "Redis Cache",
+        "level": "advanced"
+      },
+      {
+        "name": "MongoDB",
+        "level": "intermediate"
+      },
+      {
+        "name": "Dependency Injection",
+        "level": "advanced"
+      },
+      {
+        "name": "RDLC Reports",
+        "level": "advanced"
+      },
+      {
+        "name": "Power BI",
+        "level": "intermediate"
+      },
+      {
+        "name": "Elastic Search",
+        "level": "intermediate"
+      },
+      {
+        "name": "Splunk",
+        "level": "intermediate"
+      },
+      {
+        "name": "Azure Application Insights",
+        "level": "advanced"
+      },
+      {
+        "name": "Azure",
+        "level": "advanced"
+      },
+      {
+        "name": "Unit Testing",
+        "level": "expert"
+      },
+      {
+        "name": "TDD",
+        "level": "expert"
+      },
+      {
+        "name": "NUnit",
+        "level": "advanced"
+      },
+      {
+        "name": "xUnit",
+        "level": "expert"
+      },
+      {
+        "name": "MSTest",
+        "level": "advanced"
+      },
+      {
+        "name": "OOP",
+        "level": "expert"
+      }
     ],
     "designPatterns": [
       "IoC (Inversion of Control)",
@@ -38,25 +176,66 @@
       "Singleton",
       "Dependency Injection",
       "Factory Pattern",
-      "Observer Pattern"
+      "Visitor Pattern",
+      "CAP",
+      "Specification Pattern",
+      "MVC",
+      "Chain of Responsibility"
     ],
-    "versionControl": ["Git", "GitHub", "TFS", "Azure DevOps"],
-    "interests": ["Open Source", "Tech Blogging", "Code Reviews", "Continuous Learning"],
+    "versionControl": [ "GitLab", "GitHub", "TFS", "Source Tree", "Azure DevOps" ],
+    "interests": [ "Open Source", "Tech Blogging", "Code Reviews", "Continuous Learning", "Chess" ],
+    "developingSkills": [ "Reading", "DSA", "Sytem Design", "React", "AI" ],
     "careerStartDate": "2016-01-01",
-    "projectsCompleted": "50+",
+    "projectsCompleted": "25+",
     "additionalStats": [
-      { "label": "Code Reviews", "value": "1000+" },
-      { "label": "API Endpoints", "value": "500+" },
-      { "label": "Database Schemas", "value": "100+" },
-      { "label": "Team Members Mentored", "value": "15+" },
-      { "label": "Production Deployments", "value": "200+" },
-      { "label": "Bug Fixes", "value": "2000+" },
-      { "label": "Git Commits", "value": "5000+" },
-      { "label": "Unit Tests Written", "value": "3000+" },
-      { "label": "Stored Procedures", "value": "300+" },
-      { "label": "NuGet Packages", "value": "25+" },
-      { "label": "Code Refactoring", "value": "150+" },
-      { "label": "Performance Optimizations", "value": "100+" }
+      {
+        "label": "Code Reviews",
+        "value": "1000+"
+      },
+      {
+        "label": "API Endpoints",
+        "value": "500+"
+      },
+      {
+        "label": "Database Schemas",
+        "value": "100+"
+      },
+      {
+        "label": "Team Members Mentored",
+        "value": "15+"
+      },
+      {
+        "label": "Production Deployments",
+        "value": "200+"
+      },
+      {
+        "label": "Bug Fixes",
+        "value": "2000+"
+      },
+      {
+        "label": "Git Commits",
+        "value": "5000+"
+      },
+      {
+        "label": "Unit Tests Written",
+        "value": "3000+"
+      },
+      {
+        "label": "Stored Procedures",
+        "value": "300+"
+      },
+      {
+        "label": "NuGet Packages",
+        "value": "25+"
+      },
+      {
+        "label": "Code Refactoring",
+        "value": "150+"
+      },
+      {
+        "label": "Performance Optimizations",
+        "value": "100+"
+      }
     ]
   },
   "timeline": {
@@ -65,43 +244,43 @@
         "id": "edu-1",
         "course": "Bachelor of Engineering (B.E.)",
         "specialization": "Electronics and Communication Engineering",
-        "institute": "Ahmedabad Institute of Technology",
+        "institute": "Government Engineering College, Modasa",
         "startMonth": "July",
-        "startYear": 2012,
+        "startYear": 2009,
         "endMonth": "May",
-        "endYear": 2016,
-        "cgpa": "7.8/10"
+        "endYear": 2013,
+        "cgpa": "7.59/10"
       },
       {
         "id": "edu-2",
         "course": "Higher Secondary (12th)",
         "specialization": "Science Stream",
-        "institute": "Delhi Public School, Ahmedabad",
-        "startMonth": "June",
-        "startYear": 2010,
+        "institute": "Seth H.H Shirolawala High School, Bodeli",
+        "startMonth": "April",
+        "startYear": 2008,
         "endMonth": "March",
-        "endYear": 2012,
-        "percentage": "82%"
+        "endYear": 2009,
+        "percentage": "82.02%"
       },
       {
         "id": "edu-3",
         "course": "Secondary (10th)",
         "specialization": "General",
-        "institute": "Delhi Public School, Ahmedabad",
-        "startMonth": "June",
-        "startYear": 2008,
+        "institute": "Khatri Vidyalaya Bodeli",
+        "startMonth": "April",
+        "startYear": 2006,
         "endMonth": "March",
-        "endYear": 2010,
-        "percentage": "88%"
+        "endYear": 2007,
+        "percentage": "75.08%"
       }
     ],
     "experience": [
       {
         "id": "exp-1",
-        "company": "Tech Solutions India Pvt. Ltd.",
-        "designation": "Senior Full Stack Developer",
-        "startMonth": "January",
-        "startYear": 2021,
+        "company": "York IE APAC Pvt Ltd, Ahmedabad",
+        "designation": "Senior Engineer-Level 2",
+        "startMonth": "December",
+        "startYear": 2024,
         "endMonth": "Present",
         "endYear": 2025,
         "responsibilities": [
@@ -114,12 +293,12 @@
       },
       {
         "id": "exp-2",
-        "company": "Tech Solutions India Pvt. Ltd.",
-        "designation": "Full Stack Developer",
-        "startMonth": "June",
-        "startYear": 2018,
-        "endMonth": "December",
-        "endYear": 2020,
+        "company": "Dell International Services India Pvt Ltd, Bangalore",
+        "designation": "Senior Software Engineer",
+        "startMonth": "October",
+        "startYear": 2022,
+        "endMonth": "November",
+        "endYear": 2024,
         "responsibilities": [
           "Developed full-stack web applications using .NET Core and React",
           "Built and maintained REST APIs serving 500K+ users",
@@ -130,12 +309,12 @@
       },
       {
         "id": "exp-3",
-        "company": "Digital Innovations Ltd.",
-        "designation": "Senior Software Engineer",
-        "startMonth": "August",
-        "startYear": 2019,
-        "endMonth": "May",
-        "endYear": 2021,
+        "company": "Dell International Services India Pvt Ltd, Bangalore",
+        "designation": "Software Engineer",
+        "startMonth": "February",
+        "startYear": 2020,
+        "endMonth": "September",
+        "endYear": 2022,
         "responsibilities": [
           "Designed and implemented enterprise-scale solutions for fintech applications",
           "Developed real-time data processing systems using advanced queuing mechanisms",
@@ -146,12 +325,12 @@
       },
       {
         "id": "exp-4",
-        "company": "Digital Innovations Ltd.",
-        "designation": "Software Engineer",
-        "startMonth": "March",
-        "startYear": 2017,
-        "endMonth": "July",
-        "endYear": 2019,
+        "company": "Ernst & Young LLP, Bangalore ",
+        "designation": "Associate Consultant ",
+        "startMonth": "October",
+        "startYear": 2018,
+        "endMonth": "February",
+        "endYear": 2020,
         "responsibilities": [
           "Developed and maintained web applications using ASP.NET MVC and AngularJS",
           "Created database schemas and optimized SQL queries",
@@ -162,12 +341,12 @@
       },
       {
         "id": "exp-5",
-        "company": "StartupXYZ Technologies",
-        "designation": "Junior Developer",
+        "company": "TalentPace Pvt. Ltd., Bangalore",
+        "designation": "Sr. Software Engineer",
         "startMonth": "January",
         "startYear": 2016,
-        "endMonth": "February",
-        "endYear": 2017,
+        "endMonth": "October",
+        "endYear": 2018,
         "responsibilities": [
           "Developed features for web applications using C# and ASP.NET",
           "Assisted senior developers in debugging and code optimization",
@@ -179,145 +358,267 @@
     ]
   },
   "projects": {
-    "domains": [
-      { "name": "E-Commerce", "count": 2, "color": "from-blue-500 to-cyan-500" },
-      { "name": "FinTech", "count": 3, "color": "from-green-500 to-emerald-500" },
-      { "name": "Healthcare", "count": 1, "color": "from-red-500 to-pink-500" },
-      { "name": "Enterprise", "count": 1, "color": "from-purple-500 to-indigo-500" }
-    ],
     "list": [
       {
-        "id": "proj-1",
-        "title": "Microservices E-Commerce Platform",
-        "company": "Tech Solutions India Pvt. Ltd.",
-        "domain": "E-Commerce",
-        "intro": "Scalable microservices-based e-commerce platform handling 1M+ daily requests with advanced inventory management and real-time order tracking.",
-        "description": "Built a comprehensive e-commerce solution using microservices architecture that improved system scalability by 300% and reduced latency to 100ms.",
-        "myRole": "Senior Full Stack Developer & Tech Lead",
-        "techStack": ["C#", ".NET Core", "React", "SQL Server", "Azure", "RabbitMQ", "Docker", "Kubernetes"],
-        "achievements": [
-          "Architected microservices handling 1M+ daily requests",
-          "Reduced API response time by 60% through optimization",
-          "Led team of 6 developers to successful delivery",
-          "Implemented CI/CD reducing deployment time by 70%"
-        ],
-        "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop",
-        "startDate": "2021",
-        "endDate": "2023"
-      },
-      {
-        "id": "proj-2",
-        "title": "Real-time Financial Dashboard",
-        "company": "Digital Innovations Ltd.",
-        "domain": "FinTech",
-        "intro": "Real-time financial data processing and visualization dashboard for institutional investors with live market data integration.",
-        "description": "Developed a real-time financial dashboard processing 50,000 transactions per second with WebSocket-based live updates.",
+        "id": 1,
+        "title": "GPS Vehicle Tracking System",
+        "client": "Securiforce logistics, Malysia",
+        "company": "TalentPace Pvt. Ltd.",
+        "domain": "Vehicle Tracking / Telematics",
+        "intro": "A GPS-based vehicle tracking system providing real-time monitoring, geofencing, POI management, and trip history using Google Maps V3.",
+        "description": "Developed the complete Map module for a GPS tracking system, enabling real-time vehicle location updates, geofence management, trip visualization, and route history using ASP.NET MVC and Google Maps API.",
         "myRole": "Full Stack Developer",
-        "techStack": ["C#", ".NET Core", "Angular", "SQL Server", "SignalR", "Azure"],
-        "achievements": [
-          "Processed 50,000 transactions per second",
-          "Reduced data latency to <100ms",
-          "Implemented real-time WebSocket communication",
-          "90% uptime SLA maintained"
+        "techStack": [
+          "ASP.NET MVC 5",
+          "C#",
+          "Dapper",
+          "SQL Server 2014",
+          "Visual Studio 2013",
+          "TFS",
+          "jQuery",
+          "Google Maps API V3"
         ],
-        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-        "startDate": "2019",
-        "endDate": "2021"
+        "achievements": [
+          "Implemented real-time vehicle tracking with 3-second refresh intervals",
+          "Built geofence, POI, routing, and trip history features using Google Maps V3",
+          "Created optimized stored procedures and SQL queries for high-performance data retrieval",
+          "Improved UI responsiveness using partial views and jQuery-based dynamic components",
+          "Resolved system issues during testing and improved overall module stability"
+        ],
+        "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&h=300&fit=crop",
+        "startDate": "March 2016",
+        "endDate": "August 2016"
       },
       {
-        "id": "proj-3",
-        "title": "Healthcare Patient Management System",
-        "company": "Digital Innovations Ltd.",
-        "domain": "Healthcare",
-        "intro": "Comprehensive patient management system for hospitals with appointment scheduling, medical records, and billing integration.",
-        "description": "Full-stack healthcare solution managing 50,000+ patient records with HIPAA compliance and secure data handling.",
+        "id": 2,
+        "title": "BMPM – B2B News Application",
+        "client": "ABS-CBN News, Philippines",
+        "company": "TalentPace Pvt. Ltd.",
+        "domain": "Digital Media / CMS",
+        "intro": "A CMS-driven news and media platform built on Kentico CMS 8 for ABS-CBN News, enabling efficient content publishing and dynamic rendering of news, events, and discussions.",
+        "description": "Developed customized CMS components, dynamic page templates, and widgets in Kentico CMS 8 to support the B2B news application. Implemented content capture workflows and built dynamic pages such as events, albums, discussions, and news sections.",
         "myRole": "Full Stack Developer",
-        "techStack": ["ASP.NET MVC", "Entity Framework", "jQuery", "SQL Server", "Azure"],
-        "achievements": [
-          "Managed 50,000+ patient records securely",
-          "HIPAA compliance implemented",
-          "Appointment scheduling efficiency improved by 40%",
-          "Integrated billing system successfully"
+        "techStack": [
+          "ASP.NET",
+          "C#",
+          "Kentico CMS V8",
+          "SQL Server 2014",
+          "Visual Studio 2013",
+          "GitHub",
+          "jQuery"
         ],
-        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=300&fit=crop",
-        "startDate": "2018",
-        "endDate": "2020"
+        "achievements": [
+          "Created custom page types, templates, and modular widgets in Kentico CMS 8",
+          "Implemented dynamic content rendering using Kentico page templates and repeaters",
+          "Enhanced UI behavior using jQuery for interactive user experiences",
+          "Optimized CMS structure and templates for faster content delivery",
+          "Resolved multiple issues during testing to improve platform stability"
+        ],
+        "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=500&h=300&fit=crop",
+        "startDate": "August 2016",
+        "endDate": "December 2017"
       },
       {
-        "id": "proj-4",
-        "title": "Enterprise Resource Planning (ERP) System",
-        "company": "Tech Solutions India Pvt. Ltd.",
-        "domain": "Enterprise",
-        "intro": "Custom ERP system for manufacturing company managing supply chain, inventory, and production planning.",
-        "description": "Scalable ERP solution for enterprise with 500+ users across multiple locations.",
-        "myRole": "Senior Full Stack Developer",
-        "techStack": ["C#", ".NET Core", "React", "SQL Server", "Azure", "Docker"],
-        "achievements": [
-          "Deployed across 5 locations successfully",
-          "500+ concurrent users supported",
-          "Inventory tracking accuracy improved to 99.9%",
-          "Reduced manual processes by 80%"
-        ],
-        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop",
-        "startDate": "2020",
-        "endDate": "2022"
-      },
-      {
-        "id": "proj-5",
-        "title": "Payment Gateway Integration",
-        "company": "Digital Innovations Ltd.",
-        "domain": "FinTech",
-        "intro": "Secure payment gateway integration handling multiple payment methods and currencies with fraud detection.",
-        "description": "Payment processing solution supporting 20+ payment gateways with advanced fraud detection algorithms.",
+        "id": 3,
+        "title": "CIT – Cash In Transit Management System",
+        "company": "TalentPace Pvt. Ltd.",
+        "client": "Securiforce logistics, Malysia",
+        "domain": "Finance / Logistics",
+        "intro": "A cash-in-transit recording and billing system designed to manage and track all CIT run details with reliable data handling and reporting.",
+        "description": "Built the billing module for the CIT system, involving requirement analysis, database design, stored procedures, controllers, and views. Developed end-to-end features to support billing operations and ensured smooth integration with existing modules.",
         "myRole": "Full Stack Developer",
-        "techStack": ["C#", ".NET Core", "SQL Server", "REST APIs", "Azure"],
-        "achievements": [
-          "Integrated 20+ payment gateways",
-          "Fraud detection accuracy: 99.5%",
-          "Processing 10,000+ transactions daily",
-          "Zero security breaches maintained"
+        "techStack": [
+          "ASP.NET MVC 5",
+          "C#",
+          "Dapper",
+          "SQL Server 2014",
+          "Visual Studio 2013",
+          "TFS",
+          "jQuery"
         ],
-        "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=500&h=300&fit=crop",
-        "startDate": "2019",
-        "endDate": "2021"
+        "achievements": [
+          "Designed and implemented complete billing functionality for the CIT system",
+          "Created optimized stored procedures, tables, and MVC controllers",
+          "Implemented UI components using jQuery and MVC views",
+          "Collaborated with stakeholders to understand workflow and translate requirements",
+          "Fixed various issues during testing to improve system reliability"
+        ],
+        "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&h=300&fit=crop",
+        "startDate": "January 2017",
+        "endDate": "June 2017"
       },
       {
-        "id": "proj-6",
-        "title": "AI-Powered Inventory Management",
-        "company": "StartupXYZ Technologies",
-        "domain": "E-Commerce",
-        "intro": "Machine learning-based inventory optimization system predicting demand and automating stock management.",
-        "description": "Freelance project building intelligent inventory system using ML algorithms for demand forecasting.",
-        "myRole": "Full Stack Developer & ML Consultant",
-        "techStack": ["C#", ".NET Core", "Python", "React", "SQL Server", "TensorFlow"],
-        "achievements": [
-          "Inventory accuracy improved to 96%",
-          "Demand forecasting MAPE: 8.5%",
-          "Stock-out instances reduced by 75%",
-          "Annual savings: $150,000+"
-        ],
-        "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=500&h=300&fit=crop",
-        "startDate": "2022",
-        "endDate": "2023"
-      },
-      {
-        "id": "proj-7",
-        "title": "Mobile Banking Application",
-        "company": "Freelance",
-        "domain": "FinTech",
-        "intro": "Cross-platform mobile banking app for iOS and Android with biometric authentication and transaction management.",
-        "description": "Freelance mobile banking solution with offline transaction capabilities and real-time synchronization.",
+        "id": 4,
+        "title": "Human Resource Management System",
+        "client": "Securiforce logistics, Malysia",
+        "company": "TalentPace Pvt. Ltd.",
+        "domain": "HR / Workforce Management",
+        "intro": "A comprehensive HR management platform handling end-to-end employee lifecycle processes including attendance, salary, verification, leave management, and reporting.",
+        "description": "Worked on various HR modules such as onboarding, salary processing, overtime (OT) calculation, billing processes, and report generation. Contributed to building and enhancing workflows for accurate employee data handling and HR operations.",
         "myRole": "Full Stack Developer",
-        "techStack": ["React Native", "Node.js", "MongoDB", "Firebase", "JWT"],
-        "achievements": [
-          "10,000+ downloads in first month",
-          "4.8/5 app store rating",
-          "Biometric authentication implemented",
-          "Offline transaction support"
+        "techStack": [
+          "ASP.NET MVC 5",
+          "C#",
+          "Dapper",
+          "SQL Server 2014",
+          "Visual Studio 2013",
+          "TFS",
+          "jQuery"
         ],
-        "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&auto=format&q=80",
-        "startDate": "2023",
-        "endDate": "2024"
+        "achievements": [
+          "Contributed to core HR modules including onboarding, payroll, OT calculation, and billing",
+          "Designed and optimized database objects for HR workflows",
+          "Implemented UI components and backend logic for automating HR processes",
+          "Improved accuracy and reliability of salary and OT calculations",
+          "Supported QA by resolving issues during testing cycles"
+        ],
+        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&h=300&fit=crop",
+        "startDate": "June 2017",
+        "endDate": "October 2017"
+      },      
+      {
+        "id": 5,
+        "title": "Sales Rebate Process (SRP)",
+        "company": "Acer, India",
+        "domain": "Finance / Workflow Automation",
+        "intro": "A workflow-driven system for managing monthly budget approvals, rebate consumption, and hierarchical approval routes based on configurable matrices.",
+        "description": "Maintained and enhanced SRP modules including master pages, budget workflows, CAC matrix workflows, and discount consumption approval processes. Built database objects, controllers, and UI components, and implemented automated schedulers for email notifications.",
+        "myRole": "Module Lead / Full Stack Developer",
+        "techStack": [
+          "ASP.NET MVC 5",
+          "C#",
+          "Dapper",
+          "SQL Server 2014",
+          "Visual Studio 2015",
+          "TFS"
+        ],
+        "achievements": [
+          "Delivered Master Pages and Monthly Budget Matrix module as Module Lead",
+          "Configured workflow matrices for multi-level budget and discount approvals",
+          "Developed stored procedures, tables, controllers, and jQuery features",
+          "Published code to SmarterASP and IIS environments",
+          "Created automated schedulers for notification emails to managers",
+          "Provided enhancement solutions and participated in requirement discussions",
+          "Resolved defects during testing phases ensuring smooth workflow execution"
+        ],
+        "image": "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=500&h=300&fit=crop",
+        "startDate": "October 2017",
+        "endDate": "January 2018"
+      },
+      {
+        "id": 6,
+        "title": "RFP – Request for Proposal",
+        "client": "HUB International, USA",
+        "company": "TalentPace Pvt. Ltd.",
+        "domain": "Insurance / Benefits Management",
+        "intro": "A comprehensive RFP management module handling multiple Lines of Coverage (Medical, Dental, STD, LTD, etc.) with plan exports, carrier quote submissions, and structured workflows.",
+        "description": "Developed key components of the RFP module, enabling account managers to manage plans, export plan data to Excel, and capture carrier quotes for each Line of Coverage. Worked across the full stack, delivering new pages, services, mappers, DTOs, entities, and UI components following TDD practices.",
+        "myRole": "Full Stack Developer",
+        "techStack": [
+          "ASP.NET MVC 5",
+          "C#",
+          "Entity Framework (Code First)",
+          "SQL Server 2014",
+          "Visual Studio 2017",
+          "GitHub (Bitbucket)"
+        ],
+        "achievements": [
+          "Delivered complete quote and plan pages for all Lines of Coverage",
+          "Developed services, mappers, profiles, DTOs, entities, views, and controllers",
+          "Performed code reviews across modules ensuring clean architecture and standards",
+          "Implemented TDD with well-structured unit test cases",
+          "Collaborated with offshore teams through daily standups and sync meetings",
+          "Resolved issues during testing and improved module stability"
+        ],
+        "image": "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=500&h=300&fit=crop",
+        "startDate": "January 2018",
+        "endDate": "October 2018"
+      },
+      {
+        "id": 7,
+        "title": "Gii – Dell Offline Selling Tool Modernization",
+        "client": "Dell Technologies",
+        "company": "Dell Technologies",
+        "domain": "Sales Automation / Digital Transformation",
+        "intro": "A modernization initiative transforming Dell’s 20-year-old WinForms-based offline selling tool by migrating legacy WCF services into scalable .NET Core microservices.",
+        "description": "Contributed to Dell’s digital transformation by converting legacy WCF services into .NET Core microservices and integrating EMC product workflows post-acquisition. Worked with a team of 7 to enhance system performance, architecture, and maintainability using modern .NET standards and enterprise patterns.",
+        "myRole": "Software Engineer – Microservices Developer",
+        "techStack": [
+          "ASP.NET Core 3.1",
+          "C#",
+          "WinForms (Legacy Integration)",
+          "GitHub",
+          "Visual Studio 2019"
+        ],
+        "achievements": [
+          "Converted legacy WCF services into modern .NET Core microservices",
+          "Developed middleware components and implemented CQRS with repository patterns",
+          "Delivered query handlers, requests, and response workflows aligning with enterprise design",
+          "Implemented TDD and contributed to unit testing coverage for microservices",
+          "Collaborated with a cross-functional team in an Agile environment",
+          "Integrated EMC product workflows into Dell’s existing selling infrastructure"
+        ],
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
+        "startDate": "October 2018",
+        "endDate": "May 2021"
+      },
+      {
+        "id": 8,
+        "title": "DSA – Dell Sales Application",
+        "client": "Dell Technologies",
+        "company": "Dell Technologies",
+        "domain": "Sales Automation / Globalization",
+        "intro": "A large-scale, web-based sales platform powered by Angular and .NET Core microservices, enabling global product sales and streamlined operations for Dell’s sales teams.",
+        "description": "Worked on globalization of the Dell Sales Application, expanding its availability from limited regions to a global user base. Delivered multiple microservices and implemented enterprise-grade features across backend and frontend components within an Agile framework.",
+        "myRole": "Full Stack Developer – .NET & Angular",
+        "techStack": [
+          "ASP.NET Core 6.0",
+          "C#",
+          "Angular 16",
+          "Visual Studio 2022",
+          "GitHub"
+        ],
+        "achievements": [
+          "Delivered new routes, services, profiles, models, mappers, controllers, and configurations",
+          "Enhanced system globalization enabling application usage across multiple countries",
+          "Achieved 80% unit test coverage (~5000 LOC) in just 2 months during aggressive quality push",
+          "Ensured 95% on-time delivery of assigned tasks within Agile sprints",
+          "Participated in daily standups and collaborated with multiple interlock teams",
+          "Contributed to development of multiple microservices for various integration workflows"
+        ],
+        "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&h=300&fit=crop",
+        "startDate": "May 2021",
+        "endDate": "November 2024"
+      },
+      {
+        "id": 9,
+        "title": "Total Synergy – Modernization",
+        "client": "Total Synergy, Australia",
+        "company": "York IE APAC Pvt Ltd",
+        "domain": "Project Management / A&E (Architecture & Engineering)",
+        "intro": "A modernization initiative for Total Synergy, a comprehensive project management platform used by A&E firms for scheduling, resource planning, budgeting, timesheets, expenses, invoicing, and forecasting.",
+        "description": "Contributed to the modernization of the legacy Total Synergy application by building new routes, enhancing UI components, and developing V3 APIs. Worked across a mixed technology stack consisting of AngularJS, Angular 17, and ASP.NET MVC with .NET Framework 4.8. Supported the transition toward a more loosely coupled and scalable architecture while ensuring backward compatibility with existing workflows.",
+        "myRole": "Full Stack Developer",
+        "techStack": [
+          "ASP.NET MVC (.NET Framework 4.8)",
+          "C#",
+          "Angular 17",
+          "AngularJS",
+          "Entity Framework (Code First)",
+          "Visual Studio 2022",
+          "GitHub"
+        ],
+        "achievements": [
+          "Developed new routes and UI components to support modernization of the existing legacy system",
+          "Delivered robust V3 APIs and integrated them with modernized views",
+          "Created services, mappers, models, proxies, profiles, controllers, and configurations",
+          "Worked efficiently across a complex mixed-tech stack (AngularJS + Angular 17 + ASP.NET MVC)",
+          "Improved maintainability in a heavily revised legacy codebase without breaking existing functionality",
+          "Participated in Agile processes with ongoing requirement analysis and technical discussions"
+        ],
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop",
+        "startDate": "December 2024",
+        "endDate": "Present"
       }
     ]
   },
@@ -368,5 +669,6 @@
       "facebook": "https://www.facebook.com/sarfarajk1",
       "github": "https://github.com/sarfarajkh1"
     }
-  }
+  },
+  "roles": [ "an Engineer", "a Programmer", "a Teacher", "a Freelancer", "a Leader", "a Supporter" ]
 }

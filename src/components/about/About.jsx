@@ -9,7 +9,7 @@ import PersonalDetails from './PersonalDetails';
 import DesignPatterns from './DesignPatterns';
 import VersionControl from './VersionControl';
 import Interests from './Interests';
-import DeveloperNote from './DeveloperNote';
+import DevelopingSkills from './DevelopingSkills';
 
 const About = () => {
   const { about } = aboutData;
@@ -78,12 +78,7 @@ const About = () => {
 
             {/* Technical Skills */}
             <TechnicalSkills skills={about.technicalSkills} />
-            {/* Version Control & Other Tools (moved here to appear after Technical Skills) */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <VersionControl tools={about.versionControl} />
-
-              <Interests interests={about.interests} />
-            </div>
+            
           </motion.div>
         </div>
 
@@ -95,6 +90,11 @@ const About = () => {
           transition={{ duration: 0.6 }}
           className="space-y-8"
         >
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <VersionControl tools={about.versionControl} />
+              <Interests interests={about.interests} />
+              <DevelopingSkills developingSkills={about.developingSkills} />
+            </div>
           {/* Personal Details & Design Patterns - Two Column */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Personal Details */}

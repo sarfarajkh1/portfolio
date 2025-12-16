@@ -37,10 +37,10 @@ const Projects = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 sm:p-10 mb-12 max-w-4xl mx-auto"
+          className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 sm:p-10"
         >
-          <p className="text-gray-300 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
-            From <span className="text-cyan-400 font-semibold">FinTech</span> to <span className="text-cyan-400 font-semibold">ERP</span>, I've delivered end-to-end solutions that solve real-world business challenges with technology.
+          <p className="text-gray-300 text-lg sm:text-xl mx-auto leading-relaxed">
+            Spanning <span className="text-cyan-400 font-semibold">Vehicle Tracking</span>, <span className="text-cyan-400 font-semibold">HR Management</span>, <span className="text-cyan-400 font-semibold">Finance</span>, <span className="text-cyan-400 font-semibold">Insurance</span>, <span className="text-cyan-400 font-semibold">Digital Sales</span>, and <span className="text-cyan-400 font-semibold">Project Management</span>, I've architected and developed mission-critical systems that drive business value and operational excellence.
           </p>
         </motion.div>
 
@@ -52,7 +52,7 @@ const Projects = () => {
           transition={{ duration: 0.6 }}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-16"
         >
-          {projects.list.map((project, index) => (
+          {projects.list.sort((a, b) => b.id - a.id).map((project, index) => (
             <ProjectCard
               key={project.id}
               project={project}

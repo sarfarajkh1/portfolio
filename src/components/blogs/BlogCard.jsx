@@ -15,10 +15,10 @@ const BlogCard = ({ blog, index, onClick }) => {
         <img
           src={blog.image}
           alt={blog.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 brightness-50"
         />
 
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-black/30 opacity-100 group-hover:opacity-100 transition-opacity duration-300" />
 
         <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent">
           <h3 className="text-white font-bold text-lg">{blog.title}</h3>
