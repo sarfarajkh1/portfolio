@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import profileImg from '../assets/profile.jpeg';
+import roleData from '../data/details.json';
 
 const Navigation = () => {
   const menuItems = ['About', 'Timeline', 'Projects', 'Services', 'Blogs', 'Contact Me'];
@@ -11,7 +12,7 @@ const Navigation = () => {
   const [charIndex, setCharIndex] = useState(0);
 
   useEffect(() => {
-    const roles = ['an Engineer', 'a Programmer', 'a Teacher', 'a Freelancer', 'a Blogger'];
+    const roles = roleData.roles;
     const currentRole = roles[currentRoleIndex];
     const typingSpeed = isDeleting ? 50 : 100;
     const pauseTime = 2000;

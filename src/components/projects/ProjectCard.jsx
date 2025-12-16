@@ -16,11 +16,11 @@ const ProjectCard = ({ project, index, onClick }) => {
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 brightness-50"
         />
 
         {/* Overlay - always visible on small screens, hover on md+ */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-black/30 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300" />
 
         {/* Content - visible on mobile, hover on md+ */}
         <div className="absolute inset-0 flex flex-col justify-end p-4 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">

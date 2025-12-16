@@ -22,7 +22,7 @@ const ProjectModal = ({ project, onClose }) => {
           {/* Close Button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-10 w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+            className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors pointer-events-auto"
           >
             <span className="text-white text-xl">×</span>
           </button>
@@ -69,6 +69,11 @@ const ProjectModal = ({ project, onClose }) => {
             <div>
               <h3 className="text-lg font-semibold text-white mb-2">My Role</h3>
               <p className="text-cyan-400 font-medium">{project.myRole}</p>
+            </div>
+
+             <div>
+              <h3 className="text-lg font-semibold text-white mb-2">Client</h3>
+              <p className="text-cyan-400 font-medium">{project.client}</p>
             </div>
 
             {/* Tech Stack */}
