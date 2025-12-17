@@ -14,6 +14,8 @@ It includes essential tooling and configuration for development and production b
 - **JavaScript (ES6+)** — Core language
 - **CSS** — Styling
 - **HTML** — Markup language
+- **React**
+- **Tailwind**
 
 ## 📁 Project Structure
 
