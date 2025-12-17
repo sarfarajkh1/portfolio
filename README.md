@@ -1,16 +1,85 @@
-# React + Vite
+# Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a **React + Vite** based portfolio web application.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A minimal React project bootstrapped with **Vite** to serve as a portfolio website.  
+It includes essential tooling and configuration for development and production builds.
 
-## React Compiler
+## 🧱 Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** — Frontend library for building user interfaces
+- **Vite** — Fast build tool and development server
+- **JavaScript (ES6+)** — Core language
+- **CSS** — Styling
+- **HTML** — Markup language
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+.
+├── .github/               # GitHub workflows
+├── public/                # Public static assets
+├── src/                   # Application source code
+├── .gitignore             # Files to ignore in Git
+├── eslint.config.js       # ESLint config
+├── index.html             # App entry HTML
+├── package.json           # Dependencies & scripts
+├── postcss.config.js      # PostCSS config
+├── README.md              # This file
+└── vite.config.js         # Vite config
+```
+
+## ⚙️ Available Scripts
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## 🔍 ESLint
+
+ESLint configuration is included to enforce a consistent code style and catch potential bugs.
+
+## 🛠 Vite Configuration
+
+The `vite.config.js` file configures:
+
+- React plugin integration
+- Build options
+- Dev server settings
+
+## 📦 Dependencies
+
+Key dependencies from `package.json`:
+
+- `react`
+- `react-dom`
+- `vite`
+
+Dev dependencies include build tooling and ESLint plugins.
+
+## 📌 Notes
+
+- The app uses Vite’s hot module replacement (HMR) for a fast development experience.
+- This is a static frontend project with no backend included.
