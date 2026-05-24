@@ -276,13 +276,29 @@
     ],
     "experience": [
       {
+        "id": "exp-0",
+        "company": "York IE APAC Pvt Ltd, Ahmedabad",
+        "designation": "Tech Lead",
+        "startMonth": "April",
+        "startYear": 2026,
+        "endMonth": "Present",
+        "endYear": 2025,
+        "responsibilities": [
+          "Architected and developed microservices-based solutions handling 1M+ daily requests",
+          "Led a team of 8 developers in delivering complex enterprise applications",
+          "Implemented CI/CD pipelines reducing deployment time by 60%",
+          "Mentored junior developers and conducted code reviews",
+          "Optimized database queries resulting in 40% performance improvement"
+        ]
+      },
+      {
         "id": "exp-1",
         "company": "York IE APAC Pvt Ltd, Ahmedabad",
         "designation": "Senior Engineer-Level 2",
         "startMonth": "December",
         "startYear": 2024,
-        "endMonth": "Present",
-        "endYear": 2025,
+        "endMonth": "April",
+        "endYear": 2026,
         "responsibilities": [
           "Architected and developed microservices-based solutions handling 1M+ daily requests",
           "Led a team of 8 developers in delivering complex enterprise applications",
