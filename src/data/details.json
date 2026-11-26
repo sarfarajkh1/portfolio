@@ -286,10 +286,9 @@
         "startMonth": "August",
         "startYear": 2026,
         "endMonth": "present",
-        "endYear": 2026,
         "responsibilities": [
           "Leading the modernization of a legacy cruise booking engine into a scalable, modular architecture.",
-          "Breaking down tightly coupled modules into flexible, maintainable solutions."
+          "Breaking down tightly coupled modules into flexible, maintainable solutions.",
           "Ensuring seamless migration with zero disruption to existing customers and client workflows.",
           "Improving system scalability, maintainability, and long-term adaptability.",
           "Driving architectural improvements while preserving business continuity.",
