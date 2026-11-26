@@ -4,12 +4,12 @@
     "title": "Senior Full Stack .NET Developer",
     "birthday": "30 December 1991",
     "maritalStatus": "Married",
-    "address": "Ahmedabad, India",
+    "address": "Vadodara, India",
     "languagesKnown": [ "English", "Hindi", "Gujarati" ],
     "mobile": "+91 8000733962",
     "qualification": "B.E. in Electronic and Communication Engineering",
-    "highlightSentence": "Full-stack developer blending robust backend architecture with dynamic UI craftsmanship.",
-    "summary": "Passionate Full Stack Developer with extensive experience in building scalable, high-performance web applications. Specialized in .NET ecosystem with a strong foundation in modern frontend frameworks. Committed to writing clean, maintainable code while delivering exceptional user experiences. Proven track record of leading projects from conception to deployment, mentoring junior developers, and staying ahead of industry trends.",
+    "highlightSentence": "Full-stack developer building robust backend architecture with dynamic UI craftsmanship.",
+    "summary": "Senior Full Stack .NET Developer and Modernization Consultant with 10+ years of experience leading enterprise application modernization, designing scalable backend platforms, and delivering distributed software solutions across product and consulting organizations. Proven expertise in transforming legacy systems, building cloud-ready APIs, mentoring engineering teams, and driving AI-assisted software development while partnering with global stakeholders.",
     "technicalSkills": [
       {
         "name": "C#",
@@ -133,6 +133,10 @@
       },
       {
         "name": "Splunk",
+        "level": "intermediate"
+      },
+      {
+        "name": "Loggly",
         "level": "intermediate"
       },
       {
@@ -276,13 +280,32 @@
     ],
     "experience": [
       {
-        "id": "exp-0",
+        "id": "exp-7",
+        "company": "Odysseus Solutions Pvt. Ltd, Vadodara",
+        "designation": "Technical Lead",
+        "startMonth": "August",
+        "startYear": 2026,
+        "endMonth": "present",
+        "endYear": 2026,
+        "responsibilities": [
+          "Leading the modernization of a legacy cruise booking engine into a scalable, modular architecture.",
+          "Breaking down tightly coupled modules into flexible, maintainable solutions."
+          "Ensuring seamless migration with zero disruption to existing customers and client workflows.",
+          "Improving system scalability, maintainability, and long-term adaptability.",
+          "Driving architectural improvements while preserving business continuity.",
+          "Led a team of 4 developers in delivering complex enterprise applications",
+          "Mentored junior developers and conducted code reviews",
+          "Actively participate in brainstorming sessions and contribute innovative AI-driven development strategies."
+        ]
+      },
+      {
+        "id": "exp-6",
         "company": "York IE APAC Pvt Ltd, Ahmedabad",
         "designation": "Tech Lead",
         "startMonth": "April",
         "startYear": 2026,
-        "endMonth": "Present",
-        "endYear": 2025,
+        "endMonth": "September",
+        "endYear": 2026,
         "responsibilities": [
           "Architected and developed microservices-based solutions handling 1M+ daily requests",
           "Led a team of 8 developers in delivering complex enterprise applications",
@@ -290,9 +313,9 @@
           "Mentored junior developers and conducted code reviews",
           "Optimized database queries resulting in 40% performance improvement"
         ]
-      },
+      },      
       {
-        "id": "exp-1",
+        "id": "exp-5",
         "company": "York IE APAC Pvt Ltd, Ahmedabad",
         "designation": "Senior Engineer-Level 2",
         "startMonth": "December",
@@ -308,7 +331,7 @@
         ]
       },
       {
-        "id": "exp-2",
+        "id": "exp-4",
         "company": "Dell International Services India Pvt Ltd, Bangalore",
         "designation": "Senior Software Engineer",
         "startMonth": "October",
@@ -340,7 +363,7 @@
         ]
       },
       {
-        "id": "exp-4",
+        "id": "exp-2",
         "company": "Ernst & Young LLP, Bangalore ",
         "designation": "Associate Consultant ",
         "startMonth": "October",
@@ -356,7 +379,7 @@
         ]
       },
       {
-        "id": "exp-5",
+        "id": "exp-1",
         "company": "TalentPace Pvt. Ltd., Bangalore",
         "designation": "Sr. Software Engineer",
         "startMonth": "January",
@@ -642,6 +665,11 @@
     "intro": "I offer end-to-end software development and consulting services to help businesses transform ideas into robust digital solutions.",
     "list": [
       {
+        "id": "svc-0",
+        "title": "Modernization Consultant",
+        "description": "Modernizing legacy .NET applications into scalable, cloud-native solutions. I help businesses simplify architecture, improve performance, and embrace modern technologies while ensuring seamless transitions and business continuity."
+      },
+      {
         "id": "svc-1",
         "title": "Custom Software Development",
         "description": "Tailored .NET Core, Angular, and mobile applications built to scale with your business needs."
@@ -675,7 +703,7 @@
   },
   "contact": {
     "myAddress": {
-      "city": "Ahmedabad"
+      "city": "Vadodara"
     },
     "email": "sarfarajkhatri7892@gmail.com",
     "phone": "+91 8000733962",
@@ -686,5 +714,5 @@
       "github": "https://github.com/sarfarajkh1"
     }
   },
-  "roles": [ "an Engineer", "a Programmer", "a Teacher", "a Freelancer", "a Leader", "a Supporter" ]
+  "roles": [ "an Engineer", "a Programmer", "a Teacher", "a Freelancer", "a Leader", "a Supporter", "a Modernization Consultant" ]
 }
